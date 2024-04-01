@@ -21,3 +21,8 @@
     text-wrap: balance;
   }
 }
+/* Define custom class to hide scrollbar */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Webkit browsers */
+}
+
