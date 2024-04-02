@@ -14,18 +14,18 @@ const Features = () => {
         <div className=" px-6 sm:px-10 text-blue-900 max-w-[700px] text-2xl md:text-3xl sm:text-6xl xl:text-5xl font-bold">
           Explore Unique <span className="text-shadeYellow">Features</span>
         </div>
-        <div className="flex justify-start items-start ">
-          <div className="flex flex-row  gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
-            <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center  sm:justify-start sm:items-start ">
+          <div className="flex flex-col sm:flex-row justify-center items-center h-72 sm:h-52 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
+            <div className="flex justify-center items-center w-48 sm:w-[250px] py-4">
               <Image
                 src={three}
                 alt="three_gif"
                 width={230}
                 height={230}
-                className="rounded-full"
+                className="rounded-full object-contain"
               />
             </div>
-            <div className="flex flex-col justify-center items-center space-y-2 p-10">
+            <div className="flex flex-col justify-center items-center space-y-2 px-10">
               <button className="bg-navbg text-white rounded-xl w-56 h-7">
                 IAS Sathi Chatbot
               </button>
@@ -42,18 +42,18 @@ const Features = () => {
         </div>
       </div>
       <div className="mt-10 sm:px-10 px-6 flex flex-col justify-center gap-10 ">
-        <div className="flex justify-end items-start ">
-          <div className="flex flex-row  gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(233,180,14)] ">
-            <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center  sm:justify-end sm:items-start ">
+          <div className="flex flex-col sm:flex-row justify-center items-center h-72 sm:h-52 gap-3 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(233,180,14)]  ">
+            <div className="flex justify-center items-center w-48 sm:w-[250px]  mt-2">
               <Image
                 src={two}
                 alt="three_gif"
-                width={230}
-                height={230}
-                className="rounded-full"
+                width={200}
+                height={200}
+                
               />
             </div>
-            <div className="flex flex-col justify-center items-center space-y-2 p-10">
+            <div className="flex flex-col justify-center items-center space-y-2 px-10">
               <button className="bg-shadeYellow text-white rounded-xl w-56 h-7">
                 Main answer evaluation
               </button>
@@ -73,18 +73,18 @@ const Features = () => {
         </div>
       </div>
       <div className="mt-10 sm:px-10 px-6 flex flex-col justify-center gap-10 ">
-        <div className="flex justify-start items-start ">
-          <div className="flex flex-row  gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
-            <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center  sm:justify-start sm:items-start ">
+          <div className="flex flex-col sm:flex-row justify-center items-center h-72 sm:h-52 gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
+            <div className="flex justify-center items-center w-48 sm:w-[250px] py-4">
               <Image
                 src={one}
                 alt="three_gif"
                 width={230}
                 height={230}
-                className="rounded-full"
+                
               />
             </div>
-            <div className="flex flex-col justify-center items-center space-y-2 p-10">
+            <div className="flex flex-col justify-center items-center space-y-2 px-10">
               <button className="bg-navbg text-white rounded-xl w-56 h-7">
                 Live News Panel
               </button>
@@ -101,18 +101,18 @@ const Features = () => {
         </div>
       </div>
       <div className="mt-10 sm:px-10 px-6 flex flex-col justify-center gap-10 ">
-        <div className="flex justify-end items-start ">
-          <div className="flex flex-row  gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(233,180,14)] ">
-            <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center  sm:justify-end sm:items-start ">
+          <div className="flex flex-col sm:flex-row justify-center items-center h-72 sm:h-52 gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(233,180,14)] ">
+            <div className="flex justify-center items-center w-48 sm:w-[250px] py-4">
               <Image
                 src={seven}
                 alt="three_gif"
-                width={230}
+                width={200}
                 height={230}
                 className="rounded-full"
               />
             </div>
-            <div className="flex flex-col justify-center items-center space-y-2 p-10">
+            <div className="flex flex-col justify-center items-center space-y-2 px-10">
               <button className="bg-shadeYellow text-white rounded-xl w-56 h-7">
                 Stress Management test
               </button>
@@ -132,18 +132,18 @@ const Features = () => {
         </div>
       </div>
       <div className="mt-10 sm:px-10 px-6 flex flex-col justify-center gap-10 ">
-        <div className="flex justify-start items-start ">
-          <div className="flex flex-row  gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
-            <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center  sm:justify-start sm:items-start ">
+          <div className="flex flex-col sm:flex-row justify-center items-center h-72 sm:h-52 gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
+            <div className="flex justify-center items-center w-48 sm:w-[250px] ">
               <Image
                 src={six}
                 alt="three_gif"
-                width={230}
-                height={230}
+                width={200}
+                height={200}
                 className="rounded-full"
               />
             </div>
-            <div className="flex flex-col justify-center items-center space-y-2 p-10">
+            <div className="flex flex-col justify-center items-center space-y-2 px-10">
               <button className="bg-navbg text-white rounded-xl w-56 h-7">
                 Prelims MCQs practice
               </button>
@@ -160,18 +160,18 @@ const Features = () => {
         </div>
       </div>
       <div className="mt-10 sm:px-10 px-6 flex flex-col justify-center gap-10 ">
-        <div className="flex justify-end items-start ">
-          <div className="flex flex-row  gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(233,180,14)] ">
-            <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center  sm:justify-end sm:items-start ">
+          <div className="flex flex-col sm:flex-row justify-center items-center h-72 sm:h-52 gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(233,180,14)] ">
+            <div className="flex justify-center items-center w-48 sm:w-[250px]">
               <Image
                 src={four}
                 alt="three_gif"
-                width={230}
-                height={230}
+                width={190}
+                height={190}
                 className="rounded-full"
               />
             </div>
-            <div className="flex flex-col justify-center items-center space-y-2 p-10">
+            <div className="flex flex-col justify-center items-center space-y-2 px-10">
               <button className="bg-shadeYellow text-white rounded-xl w-56 h-7">
                 AI Guide Group Discussion
               </button>
@@ -190,18 +190,18 @@ const Features = () => {
         </div>
       </div>
       <div className="mt-10 sm:px-10 px-6 flex flex-col justify-center gap-10 ">
-        <div className="flex justify-start items-start ">
-          <div className="flex flex-row  gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
-            <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center  sm:justify-start sm:items-start ">
+          <div className="flex flex-col sm:flex-row justify-center items-center h-72 sm:h-52 gap-2 bg-feabg rounded-2xl shadow-[5px_5px_5px_5px_rgba(18,61,100)] ">
+            <div className="flex justify-center items-center w-48 sm:w-[250px] py-4">
               <Image
                 src={five}
                 alt="three_gif"
                 width={230}
                 height={230}
-                className="rounded-xl"
+                
               />
             </div>
-            <div className="flex flex-col justify-center items-center space-y-2 p-10">
+            <div className="flex flex-col justify-center items-center space-y-2 px-10">
               <button className="bg-navbg text-white rounded-xl w-56 h-7">
                 Live Doubt Desk
               </button>

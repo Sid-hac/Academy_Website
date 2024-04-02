@@ -4,16 +4,16 @@ import person2 from "../images/person2.jpg";
 
 const ReviewSection = () => {
   return (
-    <section className="  mt-20 ">
-      <div >
-        <div className=" px-20 text-blue-900 max-w-[700px] text-2xl md:text-3xl sm:text-6xl xl:text-5xl font-bold">
+    <section className="mt-20 w-full ">
+      <div  >
+        <div className=" px-20 text-blue-900 w-full md:max-w-[700px] text-2xl md:text-3xl sm:text-6xl xl:text-5xl font-bold">
           Review <span className="text-shadeYellow ">Section</span>
         </div>
-        <div className="overflow-x-auto scrollbar-hidden px-20 py-5">
+        <div className="overflow-x-auto  scrollbar-hidden xl:px-20 px-3 py-5">
             {/* 1st review */}
-        <div className="flex flex-row justify-start items-start gap-10 mt-10 ">
-          <div className="relative flex flex-col justify-center items-center gap-3  bg-feabg shadow-[3px_3px_3px_3px_rgba(18,61,100)] rounded-xl p-8 mt-10 min-w-[400px] flex-shrink-0">
-            <div className="absolute -top-14 left-30">
+        <div className="flex flex-row justify-start items-start gap-10 mt-10  ">
+          <div className="relative flex flex-col justify-center items-center gap-3  bg-feabg shadow-[3px_3px_3px_3px_rgba(18,61,100)] rounded-xl p-8 mt-10 w-full md:max-w-[400px] flex-shrink-0">
+            <div className="absolute -top-14 left-30 w-32 sm:w-[200px]">
               <Image
                 src={person1}
                 alt="review_1_image"
@@ -44,8 +44,8 @@ const ReviewSection = () => {
             </div>
           </div>
           {/* 2nd review */}
-          <div className="relative flex flex-col justify-center items-center gap-3  bg-feabg shadow-[3px_3px_3px_3px_rgba(18,61,100)] rounded-xl p-8 mt-10 min-w-[400px] flex-shrink-0">
-            <div className="absolute -top-14 left-30">
+          <div className="relative flex flex-col justify-center items-center gap-3  bg-feabg shadow-[3px_3px_3px_3px_rgba(18,61,100)] rounded-xl p-8 mt-10 w-full md:max-w-[400px] flex-shrink-0">
+            <div className="absolute -top-14 left-30 w-32 sm:w-[200px]">
               <Image
                 src={person2}
                 alt="review_2_image"
@@ -79,8 +79,8 @@ const ReviewSection = () => {
 
           {/* 3rd review */}
 
-          <div className="relative flex flex-col justify-center items-center gap-3  bg-feabg shadow-[3px_3px_3px_3px_rgba(18,61,100)] rounded-xl p-8 mt-10 min-w-[400px] flex-shrink-0">
-            <div className="absolute -top-14 left-30">
+          <div className="relative flex flex-col justify-center items-center gap-3  bg-feabg shadow-[3px_3px_3px_3px_rgba(18,61,100)] rounded-xl p-8 mt-10 w-full md:max-w-[400px] flex-shrink-0">
+            <div className="absolute -top-14 left-30 w-32 sm:w-[200px]">
               <Image
                 src={person2}
                 alt="review_2_image"

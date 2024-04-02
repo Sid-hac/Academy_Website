@@ -11,10 +11,10 @@ const HeroSection = () => {
                      Crack your exams
                  </button>
               </div>
-              <div className='mt-5 text-blue-900 max-w-[900px] text-2xl md:text-3xl sm:text-6xl xl:text-5xl font-bold'>
+              <div className='mt-5 text-blue-900 max-w-[900px] text-xl md:text-3xl sm:text-2xl xl:text-4xl font-bold'>
                 Unlock your <span className='text-shadeYellow uppercase '>UPSC</span>  success  with <span className='text-shadeYellow'>IAS sathi</span> , Your ultimate <span className='text-shadeYellow'>upsc companion</span>
               </div>
-              <div className='mt-3 text-xl font-bold text-blue-700'>
+              <div className='mt-3 text-xl font-bold text-navbg'>
                  Your one stop destination for civil service exams
               </div>
               <div className='flex flex-row justify-center items-center gap-4'>
